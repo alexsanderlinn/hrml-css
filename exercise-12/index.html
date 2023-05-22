@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>este vídeo está hopedado no meu próprio servidor.</p>
+    <video controls width="560" autoplay loop>
+        <source src="media/pexels-annie-spratt-10698379-1920x1080-24fps.webm" type="video/webm">
+        <source src="media/pexels-annie-spratt-10698379-1920x1080-24fps.ogv" type="video/ogg">
+        <source src="media/pexels-annie-spratt-10698379-1920x1080-24fps.mkv" type="video/mp4">
+        <source src="media/pexels-annie-spratt-10698379-1920x1080-24fps.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo <a href="media/pexels-annie-spratt-10698379-1920x1080-24fps.mp4">Clique aqui para baixar o arquivo do video.</a></p>
+    </video>
+    <h1>Inserindo video do Youtube</h1>
+    <h2>Youtube-player</h2>
+    <iframe width="560" height="360" src="https://www.youtube.com/embed/ivoglYgmiA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>vimeo-player</h2>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/783454352?h=a6fda96fc0" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+    h1 { /* box-level*/
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        border: 10px solid darkslategray;
+        padding: 10px;
+        margin: 10px;
+        outline: 5px dashed cadetblue;
+
+        /*
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkslategray;
+
+        shorthand: "border: size style color;"
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+        shorthand: "padding: size/top size/right size/bottom size/left;"
+
+        se for igula pode colocar somente um valor, se colocar dois valores será incluido bottom/top com um tamanho e o left/right com outro.
+
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+
+        shorthand: margin: size/top size/right size/bottom size/left;
+
+        outline-width: 5px;
+        outline-style: dashed;
+        outline-color: rgb(84, 171, 84);
+
+        shorthand: outline: size style color; 
+
+        */
+   }
+    a { /*inline*/
+        border-width: 10px;
+        border-style: solid;
+        border-color: tomato;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        }

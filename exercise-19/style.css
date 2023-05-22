@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    /*
+    medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    medidas relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente = 1em
+    */
+    /*
+    weight - peso
+    width - largura
+    height - altura
+
+    font-weight: (option below)
+
+    lighter
+    normal
+    bold
+    bolder
+    */
+    
+    /*
+    italico usa o font-style
+    */
+
+    /*
+    sublinhado usa o text-decoration
+    */
+
+    /*
+    mais usado:
+    font-family
+    font-weight
+    font-size
+    font-style
+    */
+
+    /*
+    shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+    "font: italic bolder 3em 'work sans' sans-serif"
+    */
+    font-size: 1em;    
+}

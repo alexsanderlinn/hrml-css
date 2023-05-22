@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        dt{color: rgb(255, 0, 0);}
+        h1{color: rgb(86, 86, 227);}
+        h2{color: rgb(93, 153, 244);}
+    </style>
+    <title>Trabalhando com listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+   <!--1 - Acordar
+    2 - Ligar para o João
+    2 - Tomar café (Caso eu precise adicionar um item no meio ele ira bagunçar toda a lista)
+    3 - Escovar os dentes
+    4 - Lavar Roupa-->
+    <ol type="1" start="100"><!--1, A, a, I e i-->
+        <!--a TAG TYPE seria a formatação da lista(lista numerica, alfabetica, ...) e a TAG START seria em qual iria começar.-->
+        <li>Acordar</li> <!--Caso eu precise adicionar um item no meio ele ira reorganizar toda a lista para ficar com a ordem correta.-->
+        <li>Ligar para o João</li>
+        <li>Tomar café <!--A TAG LI não precisa ser fechada (</li>) pode deixar vazio.-->
+        <li>Escovar dentes</li> 
+        <li>Ir para a faculdade</li>
+        <li>Voltar para a casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas</h2><!--disc, circle e square-->
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Listas dentro de outras listas</h2>
+    <ol>
+        <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+        <li>Novas</li>
+            <ol type="a" start="5"><!--A TAG START usa somente números-->
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>XBOX</li>
+            <ul type="square">
+                <li>Forza Horaizon</li>
+                    <ul type="circle">
+                        <li>Forza Horaizon 4</li>
+                        <li>Forza Horaizon 5</li>
+                    </ul>
+                <li>Flight Simulator</li>
+            </ul>
+        <li>Nintendo</li>
+            <ul type="disc">
+                <li>Mario Bros</li>
+                <li>Mario Cart</li>
+            </ul>
+        <li>PlayStation</li>
+            <ul type="circle">
+                <li>Final Fantasy</li>
+                <li>GTA V</li>
+            </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criaçãode designe de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

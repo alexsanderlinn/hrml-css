@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #6587AD;
+    --cor1: #224C7A;
+    --cor2: #99E0E0;
+    --cor3: #E47F62;
+    --cor4: #AD6A65;
+    --cor5: #ffffff;
+    --cor6: #000000;
+    
+    --fonte-padrao: ;
+    --fonte-titulo-principal: ;
+    --fonte-titulo: ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+header {
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: var(--cor5);
+}
+
+header p {
+    color: var(--cor5);
+    font-size: 1.7em;
+    justify-content: center;
+}
+
+main {
+    background-color: var(--cor5);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--cor5);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+footer a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
