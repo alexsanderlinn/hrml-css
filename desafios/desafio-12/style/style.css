@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-black: black;
+    --cor-white: white;
+    --cor-background: rgb(188, 188, 188);
+    --cor3: ;
+
+    --font-text:  'Caveat', cursive;
+    --font-title:  'Comfortaa', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+    HEADER
+*/
+
+header {
+    background-color: var(--cor-black);
+    color: var(--cor-white);
+    font-family: var(--font-title);
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cor-white);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/*
+    MAIN
+*/
+
+main { 
+    background-color: var(--cor-background);
+    font-family: var(--font-text);
+    font-size: 1.5em;
+}
+
+main p {
+    background-position-y: center;
+}
+
+/*
+    FOOTER
+*/
+
+footer {
+    background-color: var(--cor-black);
+    color: var(--cor-white);
+    font-family: var(--font-title);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-white);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
