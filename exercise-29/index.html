@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Test background Image</title>
+    <style>
+        body {
+            background-image: url(image/wallpaper001.jpg);
+        }
+        div.squad {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1 {
+            background-color: lightblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to top, red, yellow);
+        }
+
+        div#q3 {
+            background-image: url(image/pattern002.png)
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="squad" id="q1">
+
+    </div>
+    <div class="squad" id="q2">
+
+    </div>
+    <div class="squad" id="q3">
+
+    </div>
 </body>
 </html>
