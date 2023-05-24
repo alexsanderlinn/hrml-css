@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --cor-black: black;
-    --cor-white: white;
-    --cor-background: rgb(188, 188, 188);
-    --cor3: ;
-
+    --cor-black: #000000;
+    --cor-white: #ffffff;
+    --cor-background-text: #bae3e19e;
+    --cor-background-image-text: #54675570;
+    --cor-background-principal: #587a85;
+    --cor-background-image: #000000;
+    
     --font-text:  'Caveat', cursive;
     --font-title:  'Comfortaa', cursive;
 }
@@ -17,23 +19,34 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: var(--cor-background);
+}
+
 /*
     HEADER
 */
 
 header {
-    background-color: var(--cor-black);
+    background-color: var(--cor-background-principal);
     color: var(--cor-white);
     font-family: var(--font-title);
     text-align: center;
-    padding: 50px;
 }
 
 header h1 {
     font-size: 3em;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
 }
 
 header a {
+    font-weight: bolder;
     text-decoration: none;
     color: var(--cor-white);
 }
@@ -47,7 +60,6 @@ header a:hover {
 */
 
 main { 
-    background-color: var(--cor-background);
     font-family: var(--font-text);
     font-size: 1.5em;
 }
@@ -56,20 +68,45 @@ main p {
     background-position-y: center;
 }
 
+div {
+    padding-top: 10vh;
+    padding-left: 50px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+div.normal {
+    background-color: var(--cor-background-text);
+    color: var(--cor-black);
+}
+
+div.image {
+    background-color: var(--cor-background-image);
+    color: var(--cor-white);
+}
+
+div.image p {
+    background-color: var(--cor-background-image-text);
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+
 /*
     FOOTER
 */
 
 footer {
-    background-color: var(--cor-black);
+    background-color: var(--cor-background-principal);
     color: var(--cor-white);
     font-family: var(--font-title);
     font-size: 0.8em;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 footer a {
+    font-weight: bolder;
     text-decoration: none;
     color: var(--cor-white);
 }
