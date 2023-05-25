@@ -6,9 +6,10 @@
     --cor-black: #000000;
     --cor-white: #ffffff;
     --cor-background-text: #bae3e19e;
-    --cor-background-image-text: #54675570;
+    --cor-background-image-text: #54675593;
     --cor-background-principal: #587a85;
     --cor-background-image: #000000;
+    --cor-shadow: #00000083;
     
     --font-text:  'Kalam', cursive;
     --font-title:  'Comfortaa', cursive;
@@ -36,7 +37,7 @@ header {
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 5vw;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -73,6 +74,11 @@ div {
     padding-left: 50px;
     padding-bottom: 10vh;
     line-height: 2em;
+    /*font-size: 3.5vw;*/
+}
+
+div p {
+    padding: 1.5em;
 }
 
 div.normal {
@@ -83,6 +89,7 @@ div.normal {
 div.image {
     background-color: var(--cor-background-image);
     color: var(--cor-white);
+    box-shadow: inset 6px 6px 13px 0px var(--cor-shadow);
 }
 
 div.image p {
@@ -90,6 +97,21 @@ div.image p {
     display: inline-block;
     padding: 15px;
     border-radius: 15px;
+    text-shadow: 1px 1px 0px var(--cor-black);
+}
+
+div#image-01 {
+    background-image: url(../img/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#image-02 {
+    background-image: url(../img/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*
