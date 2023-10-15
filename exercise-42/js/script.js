@@ -4,13 +4,21 @@ function inputname() {
         document.getElementById("name").innerHTML = "Inválido";
         document.getElementById("code").innerHTML = "Inválido";
     } else{
-        if(name === "1001") {
+        if(name === "1001") { //Aluno: Alexsander Linn//
             document.getElementById("name").innerHTML = "Alexsander Linn";
             document.getElementById("code").innerHTML = name;
         } else {
-            if(name === "1002") {
-                document.getElementById("name").innerHTML = "Teste Aluno 1";
+            if(name === "1002") { //Aluno: João Reis//
+                document.getElementById("name").innerHTML = "João Reis";
                 document.getElementById("code").innerHTML = name;
+            } else {
+                if(name === "1003") { //Aluno: Mariana Silva//
+                    document.getElementById("name").innerHTML = "Mariana Silva";
+                    document.getElementById("code").innerHTML = name;
+                } else {
+                    document.getElementById("name").innerHTML = "Inválido";
+                    document.getElementById("code").innerHTML = "Inválido";
+                }
             }
         }
     }
