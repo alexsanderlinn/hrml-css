@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr.destaque{
+            background-color: aquamarine;
+        }
+
+        col.csexo{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>Cadastro Destaque Linha</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Paulo</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Mariana Senna</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estagiária</td>
+        </tr>
+        <tr class="destaque">
+            <td>Maitê Nunes</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Maicon Alves</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Maísa Pedrosa</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Junior Paulo</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Motorista</td>
+        </tr>
+        <tr class="destaque">
+            <td>Jorge Santista</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Otávio Faria</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Fisíco Nuclear</td>
+        </tr>
+    </table>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+            <!-- Podemos usar também:
+                <colgroup>
+                    <col class="cnome">
+                    <col class="cgrup" span="2">
+                    <col class="cprof">
+                </colgroup>
+            -->
+        </colgroup>
+        <caption>Cadastro Destaque coluna</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Paulo</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Mariana Senna</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estagiária</td>
+        </tr>
+        <tr>
+            <td>Maitê Nunes</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Maicon Alves</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Maísa Pedrosa</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Junior Paulo</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Jorge Santista</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Otávio Faria</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Fisíco Nuclear</td>
+        </tr>
+    </table>
+</body>
+</html>
