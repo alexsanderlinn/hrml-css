@@ -72,10 +72,16 @@ main .title {
 
 footer {
     background-color: var(--corbkln);
+    font-size: 10px;
     padding: 1px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     color: var(--corfont);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--corthtitle);
 }
