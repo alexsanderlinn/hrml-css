@@ -1,0 +1,81 @@
+:root {
+    --corbk: #bfd1e5;
+    --corfont: #FFD166;
+    --corth: #011627;
+    --cortitle:  #808080;
+    --corthtitle: #FFD166;
+    --corbkln: #011627;
+    --corbutton: #E8FFB7;
+}
+
+button {
+    background: var(--corbutton);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+header{
+    background-color: var(--corbkln);
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    color: var(--corfont);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corbk);
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    margin:  0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+table.header{
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.main{
+    position: relative;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td ,th {
+    border: 1px solid black;
+}
+
+main td {
+    text-align: center;
+}
+
+th.aluno{
+    font-weight: bolder;
+    text-align: center;
+}
+
+main .title {
+    background-color: var(--corth);
+    color: var(--corthtitle);
+}
+
+footer {
+    background-color: var(--corbkln);
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--corfont);
+}
