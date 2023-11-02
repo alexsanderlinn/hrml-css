@@ -10,17 +10,19 @@
 <body>
     <header>
         <h1 class="title">Boletim</h1>
-        <table class="header">
-            <tr>
-                <th class="aluno">Aluno:</th>
-                <td id="name">**********</td>
-                <th class="aluno">Código:</th>
-                <td id="code">**********</td>
-            </tr>
-            <tr>
-                <th class="aluno" colspan="4">Instituto Federal</th>
-            </tr>
-        </table>
+        <div>
+            <p class="aluno" id="name">Aluno:</p>
+            <p class="aluno" id="code">Código:</p>
+            <p></p>
+            <!--
+                Cabeçalho
+
+                <th >Aluno:
+                <td id="name">**********
+                <th class="aluno">Código:
+                <td id="code">**********
+            -->
+        </div>
         <button onclick="inputname()">Coloque seu código</button>
     </header>
     <br>
@@ -94,6 +96,10 @@
                 </tr>
             </thead>
         </table>
+        <br>
+        <br>
+        <button id="Sum" class="Sum" onclick="">Calcular</button>
+        <br>
     </main>
     <footer>
         <p>Desenvolvido por <a href="https://github.com/alexsanderlinn" target="_blank">Alexsander Linn</a></p>
